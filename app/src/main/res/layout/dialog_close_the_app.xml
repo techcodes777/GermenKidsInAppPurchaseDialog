@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/ivInnerImg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_110sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/exit_logo" />
+
+    <ImageView
+        android:id="@+id/ivAboveDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/exit_dialog" />
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignTop="@+id/ivAboveDialog"
+        android:layout_alignRight="@+id/ivAboveDialog"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:src="@drawable/close_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignBottom="@id/ivAboveDialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_60sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txtYes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/yes_no_bg"
+            android:text="Yes"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/bubble"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textColor="@color/exit_btn" />
+
+        <TextView
+            android:id="@+id/txtNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/yes_no_bg"
+            android:text="No"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/bubble"
+            android:gravity="center"
+            android:textColor="@color/exit_btn" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

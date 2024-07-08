@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="translateArray">
+        <item>Alphabet</item>
+        <item>Numbers</item>
+        <item>Colors</item>
+        <item>Shapes</item>
+        <item>Family</item>
+        <item>Body parts</item>
+        <item>Days of the week</item>
+        <item>Months of the year</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Animals</item>
+        <item>Birds</item>
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Kitchen</item>
+        <item>Bathroom</item>
+        <item>Living room</item>
+        <item>School</item>
+        <item>Sports</item>
+        <item>Professions</item>
+        <item>Animals 2</item>
+        <item>Sea Animals</item>
+        <item>Birds 2</item>
+        <item>Insects</item>
+        <item>Musical Instruments</item>
+        <item>Transportation</item>
+        <item>Games</item>
+        <item>Prepositions</item>
+        <item>Time</item>
+        <item>Verbs</item>
+    </array>
+
+    <array name="kids">
+        <item>@drawable/num1</item>
+        <item>@drawable/num2</item>
+        <item>@drawable/num3</item>
+        <item>@drawable/num4</item>
+        <item>@drawable/num5</item>
+        <item>@drawable/num6</item>
+        <item>@drawable/num7</item>
+        <item>@drawable/num8</item>
+        <item>@drawable/num9</item>
+        <item>@drawable/num10</item>
+        <item>@drawable/num11</item>
+        <item>@drawable/num12</item>
+        <item>@drawable/num13</item>
+        <item>@drawable/num14</item>
+        <item>@drawable/num15</item>
+        <item>@drawable/num16</item>
+        <item>@drawable/num17</item>
+        <item>@drawable/num18</item>
+        <item>@drawable/num19</item>
+        <item>@drawable/num20</item>
+    </array>
+    
+</resources>

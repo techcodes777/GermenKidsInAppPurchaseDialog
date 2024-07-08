@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="DialogTheme" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">#08013F</item>
+        <item name="textColorAlertDialogListItem">#08013F</item>
+
+    </style>
+
+    <style name="AppTheme.AdAttribution" parent="Theme.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Ad</item>
+        <item name="android:height">15dp</item>
+        <item name="android:width">15dp</item>
+    </style>
+
+    <style name="s_td_CustomRatingBarStyle">
+        <item name="android:maxHeight">30px</item>
+        <item name="android:progressDrawable">@drawable/s_td_custom_ratingbar</item>
+        <item name="android:minHeight">30px</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="MyDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

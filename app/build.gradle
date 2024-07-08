@@ -1,0 +1,69 @@
+plugins {
+    id 'com.android.application'
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+}
+
+android {
+    namespace 'com.dingo.germanforkids'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.dingo.germanforkids"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures{
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+    implementation 'com.airbnb.android:lottie:5.2.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    implementation 'com.flaviofaria:kenburnsview:1.0.3'
+
+    implementation 'com.github.florent37:diagonallayout:1.0.9'
+
+    implementation 'com.google.android.gms:play-services-ads:21.4.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation project(':newads')
+
+    implementation 'com.android.billingclient:billing:5.1.0'
+    implementation 'com.google.collections:google-collections:1.0-rc2'
+
+
+}

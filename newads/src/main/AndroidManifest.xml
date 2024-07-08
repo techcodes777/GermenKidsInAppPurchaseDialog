@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.ads.nativetemplates">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_unit_id" />
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="6oKi55gEg-0Bp6bTyOHaoqwfI2Qc-AhZqDrwJd5UWvwfn_4nbRQIyC35_TdUfMhd_OO76PwyV7UHZKoHGPEgHI" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <activity android:name="com.adsnativetamplete.activity.Custom_Interstitial_Ads_Activity" />
+        <activity android:name="com.adsnativetamplete.activity.Custom_Rewarded_Ads_Activity" />
+        <activity android:name="com.adsnativetamplete.activity.Custom_Result_Rewarded_Ads_Activity" />
+        <activity android:name="com.adsnativetamplete.activity.CustomAppOpenAds_Activity" />
+        <activity android:name="com.adsnativetamplete.activity.NoIntrnetActivity" />
+        <activity android:name="com.adsnativetamplete.activity.NativeBaseActivity" />
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:hardwareAccelerated="true" />
+
+        <receiver android:name="com.adsnativetamplete.notiservice.AlarmBroadcastReceiver" />
+    </application>
+
+</manifest>

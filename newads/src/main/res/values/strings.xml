@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">adslib</string>
+    <string name="app_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad">AD</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="paused">Paused</string>
+    <string name="ad_attribution">AD</string>
+    <integer name="nativeRange">6</integer>
+</resources>

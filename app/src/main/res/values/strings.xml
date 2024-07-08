@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Dingo: German Learning For Kids</string>
+
+    <string name="close">Close</string>
+    <string name="close_app">Close The Application</string>
+    <string name="close_app_message">Do you want to close the app?</string>
+    <string name="connecting">Connecting…</string>
+    <string name="contact_us">Contact us</string>
+    <string name="das">das</string>
+    <string name="der">der</string>
+    <string name="die">die</string>
+    <string name="later">Later</string>
+    <string name="german_for_kids">German for kids</string>
+    <string name="no">No</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="more_apps">More Apps</string>
+    <string name="rateTheAppMessage">If you enjoy using this app, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!</string>
+    <string name="rate_the_app">Rate The App</string>
+    <string name="rate_us_now">Rate us now</string>
+    <string name="search_menu_title">Search</string>
+    <string name="send_word_noApp">Sorry, there is no mail application</string>
+    <string name="share_the_app">Share The App</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_btn">Store</string>
+    <string name="test">Test</string>
+    <string name="choose_the_correct_picture">Wähle das richtige Bild aus:</string>
+    <string name="choose_the_correct_word">Wähle das richtige Wort aus:</string>
+    <string name="alphabete_text">Alphabete</string>
+    <string name="alphabete_lernen_text">Alphabete lernen</string>
+    <string name="alphabete_schreiben_text">Alphabete schreiben</string>
+    <string name="privacy">Privacy</string>
+    <string name="bild_finden">Bild finden</string>
+    <string name="w_hle_das_richtigebild">Wähle das RichtigeBild</string>
+    <string name="welcome_message1">of service and</string>
+    <string name="welcome_message2"> <b><u>privacy policy.</u></b> </string>
+    <string name="welcome_message3">Enjoy and Thank You!!</string>
+    <string name="note">Welcome</string>
+    <string name="ok">ACCEPT</string>
+    <string name="important_note">Which set out the Terms of use of our app and explain how we process your information including how you can exercise your privacy rights. By clicking ACCEPT, you confirm that you have reviewed and accepted our terms</string>
+
+</resources>
